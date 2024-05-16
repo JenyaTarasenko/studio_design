@@ -15,6 +15,7 @@ a {
 }
 
 body {
+
     font-family: Inter, sans-serif;
     font-size: 16px; 
     color: #CCC5B9; 
@@ -35,8 +36,7 @@ body {
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color :#CCC5B9 !important;
-    
+    color :#CCC5B9 !important; 
 
 }
 .navbar-nav {
@@ -54,6 +54,7 @@ body {
 }
 /* меню навигации */
 .mars-title h1 {
+
     font-weight: 400;
     font-size: 20px;
     color :#CCC5B9
@@ -88,10 +89,6 @@ body {
     font-size: 18px;
     /* transition: opacity 0.3s ease; /* Добавляем плавный переход */
     
-  
-
-
-
 }
 
 /* .mars-button:hover img {
@@ -143,8 +140,6 @@ body {
     font-weight: lighter;
     line-height: 20px;
     
-    
-    
 }
 
 .card-title  {
@@ -161,6 +156,7 @@ body {
     margin-top: 60px;
 }
 .vizitka-image {
+
     background-image: url(/image/Задний\ фон.png);
     background-position: center;
     background-size: cover;
@@ -187,6 +183,7 @@ body {
 }
 
 .vizitka-text_items {
+
     width: 440px;
     height: 210px;
     color: #020607;
@@ -205,6 +202,7 @@ body {
     color: #ffd769;
 
 }
+
 .text-dark {
 
     font-size: 40px;
@@ -250,6 +248,7 @@ body {
 .mars-button-topcard {
 
     margin-top: 80px;
+
 }
 
 
@@ -289,16 +288,15 @@ body {
 
 .board_text_bottom {
 
-    
     font-size: 25px;
     line-height: 30px;
     color: #FAFAFF;
     margin-top: 30px;
 
-
 } 
 
 .board_text {
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -307,7 +305,62 @@ body {
 }
 
 .board_text_bady, .board_text_bottom {
+
     display: block; /* Для корректного отображения внутри блока .board_text */
 }
 
 /* -------------------------------секция bord-top--------------------------------------- */
+/* -------------------------------секция bord-center--------------------------------------- */
+
+.bord-center-image {
+
+    background-image: url(/image/Задник\ ракета.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.board-bady {
+
+    height: 400px;
+    width: 205px;
+}
+ .board-body-left, .board-body-right{
+
+    margin-top: 150px;
+}
+
+/* -------------------------------секция bord-center--------------------------------------- */
+.board-image-top {
+
+    background-image: url(/image/Задник\ космос\ 2.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+
+}
+
+/* -------------------------------секция bord-top--------------------------------------- */
+
+/* -------------------------------секция why-us--------------------------------------- */
+.why-us-text h6 {
+
+   font-size: 40px;
+   color: #020607;
+   font-weight: 900;
+}
+.why-us-text span {
+
+    font-size: 23px;
+    font-weight: 300;
+   
+}
+/* -------------------------------секция why-us-card--------------------------------------- */
+
+
+
+/* -------------------------------секция why-us-card--------------------------------------- */
