@@ -340,27 +340,281 @@ body {
     background-size: cover;
     height: 700px;
     width: 100%;
-    position: relative;
+    display: flex; /* Делаем контейнер .card flex-контейнером */
+    justify-content: center; /* Выравниваем содержимое по центру по горизонтали */
+    align-items: center; 
+    /* position: relative; */
 
 }
+.card-top- {
+
+    position: absolute;
+
+}
+
+
 
 /* -------------------------------секция bord-top--------------------------------------- */
 
 /* -------------------------------секция why-us--------------------------------------- */
+.why-us {
+
+    margin-top: 20px;
+    margin-right: 120px;
+    
+    
+} 
+
 .why-us-text h6 {
 
-   font-size: 40px;
+   font-size: 35px;
    color: #020607;
    font-weight: 900;
 }
+
 .why-us-text span {
 
     font-size: 23px;
     font-weight: 300;
+    
    
 }
-/* -------------------------------секция why-us-card--------------------------------------- */
-
-
 
 /* -------------------------------секция why-us-card--------------------------------------- */
+.why-us-card {
+
+    margin-top: 30px;
+}
+
+.card-top {
+
+    display: flex; /* Делаем контейнер .card flex-контейнером */
+    justify-content: center; /* Выравниваем содержимое по центру по горизонтали */
+    align-items: flex;
+    align-items: center;
+}
+.card-conteiner {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.card-description {
+
+    margin-top: 90px;
+
+}
+.card-description h6 {
+
+    font-size: 35px;
+    font-weight: 900;
+    color:#ffd769;
+}
+
+
+.card-text  {
+
+    margin-top: 5px;
+}
+.card-text span {
+
+    font-size: 18px;
+    font-weight: 300;
+    color: #FAFAFF;
+
+}
+
+
+/* -------------------------------секция why-us-card--------------------------------------- */
+
+/* -------------------------------секция form --------------------------------------- */
+.form-section {
+
+    margin-top: 40px;
+}
+/* 
+
+.form-inline {
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.mars-button-items {
+
+    border-radius: 30px;
+    width: 100px;
+    height: 60px;
+}
+
+.form-text-center {
+
+    text-align: center;
+    width: 100%;
+    margin-left: 150px;
+    margin-bottom: 80px;
+   
+
+}
+*/
+.form-image {
+    background-image: url(/image//Задник\ заявка.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 375px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+.form-container {
+
+    justify-content: center;
+    width: 100vh;
+
+}
+.form-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+
+} 
+.form-inline {
+
+    display: flex;
+    gap: 10px;
+}
+.form-control {
+
+    width: 380px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+}
+.form-control::placeholder {
+
+    text-align: right;
+    font-size: 18px;
+    font-weight: 300;
+    color: #7C7C7466;
+    padding-right: 20px;
+
+}
+.form-text-center h6 {
+
+    font-size: 35px;
+    font-weight: 900;
+    color: #020607;;
+
+} 
+.form-text-center {
+
+    margin-top: 40px;
+    transform: translateY(-40px);
+}
+/* -------------------------------секция form --------------------------------------- */
+
+/* -------------------------------секция footer-image --------------------------------------- */
+
+.footer-image {
+
+    background-image: url(/image/Задник\ контакти.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-conteiner {/* контейнер img*/
+
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; /* Сдвинуть контейнер вправо */
+    margin-top: -120px; /* Поднять контейнер вверх на 20px */
+
+}
+
+.image-conteiner-items {/* картинка */
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.text-conteiner { /* контейнер 2 */
+
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto; /* Сдвинуть контейнер вправо */
+}
+
+.text-conteiner h6 {/* контейнер 2  текст */
+
+    font-size: 20px;
+    font-weight: 700;
+    color:#ffd769;
+
+}
+
+.icon-conteiner { /* контейнер 3 */
+
+    width: 400px;
+    height: 100px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px; 
+
+
+}
+.icon-conteiner {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+.image-conteiner-items {
+    margin-right: 10px;
+}
+
+.prava-conteiner {/* контейнер 3 */
+
+    position: absolute;/* чтоб двигать контейнер */
+    margin-top: 100px;
+    margin-left: 150px;
+   
+}
+
+.prava-conteiner h6 {
+
+    font-size: 16px;
+    font-weight: 400;
+    color:#AEB2AA66;
+    opacity: 0.5;/*  gпрозрачность */
+}
+
+
+
+/* -------------------------------секция footer-image --------------------------------------- */
