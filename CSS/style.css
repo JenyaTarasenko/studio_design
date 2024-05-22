@@ -110,7 +110,7 @@ body {
 
 .wark-section {
 
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .image-card {
 
@@ -178,8 +178,26 @@ body {
 
 .vizitka-text h2 {
 
+    font-weight: 900;
     font-size: 90px;
     color:#ffd769;
+}
+.vizi-text {
+
+    background: linear-gradient(90deg,  #FE0000 0%, #FED700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+.vizi-span {
+
+    font-size: 40px;
+    font-weight: 300;
+    color: #020607;
+
+
 }
 
 .vizitka-text_items {
@@ -294,6 +312,10 @@ body {
     margin-top: 30px;
 
 } 
+.bordy-text {
+
+    font-weight: 900;
+}
 
 .board_text {
 
@@ -434,33 +456,7 @@ body {
 
     margin-top: 40px;
 }
-/* 
 
-.form-inline {
-
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-
-.mars-button-items {
-
-    border-radius: 30px;
-    width: 100px;
-    height: 60px;
-}
-
-.form-text-center {
-
-    text-align: center;
-    width: 100%;
-    margin-left: 150px;
-    margin-bottom: 80px;
-   
-
-}
-*/
 .form-image {
     background-image: url(/image//Задник\ заявка.png);
     background-position: center;
@@ -618,3 +614,140 @@ body {
 
 
 /* -------------------------------секция footer-image --------------------------------------- */
+
+/* -------------------------------секция banner --------------------------------------- */
+.image-banner  {
+
+    background-image: url(/image/banner.png);
+    height: 840px;
+    position: relative;/*  примеряется к родителя чтоб двигать banner-title-top */
+    background-repeat: no-repeat;
+
+}
+
+.banner-title-top {
+
+    position: absolute;
+    top: 460px;
+    right: 190px;
+    
+}
+.banner-title-top h1 {
+
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 5%;
+    color: #CCC5B9;
+
+
+}
+/* -------------------------------секция banner --------------------------------------- */
+
+/* -------------------------------top -section --------------------------------------- */
+.top-section-image {
+
+    background-image: url(/image/Задник\ космос\ 2.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex; /* Делаем контейнер .card flex-контейнером */
+    justify-content: center; /* Выравниваем содержимое по центру по горизонтали */
+    align-items: center; 
+
+}
+
+.top-section-description, .top-section-items {
+
+    text-align: center;
+    margin-top: 40px;
+}
+.top-section-description h6 {
+
+    font-size: 40px;
+    font-weight: 900;
+    color:#020607;
+}
+.top-section-items {
+
+    font-size: 25px;
+    font-weight: 300;
+    color: #FAFAFF;
+}
+
+.mars-button-top-section {
+
+    text-align: center;
+    margin-top: 40px;
+
+}
+/* -------------------------------top -section --------------------------------------- */
+
+.space-star-image {/*  фон */
+
+    background-image: url(/image/Задник\ ракета.png);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;/* делает колонки */
+    align-items: center;
+    padding: 0 20px;
+}
+.column-space-star-left, .column-space-star-right {/*  ширина контеинера */
+
+    height: 500px;
+    width: 250px;
+    
+}
+.column-space-star-left h6, .column-space-star-right h6 {/*  ширифты */
+
+    font-size: 40px;
+    font-weight: 900;
+    /* color:#ffd769; */
+
+
+}
+.space-text { /* градиент */
+
+    background: linear-gradient(90deg,  #FE0000 0%, #FED700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}/* градиент */
+
+.column-space-star-left {/*  отступы контейнеров */
+
+    margin-right: 200px;
+    margin-left: 140px;
+}
+.column-space-star-right {
+
+    margin-right: 140px ;
+}
+
+
+.column-space-star-left p, .column-space-star-right p {
+
+    font-size: 20px;
+    font-weight: 300px;
+    letter-spacing: 5%;
+    color: #252422;
+    
+
+
+}
+/* -------------------------------space-star --------------------------------------- */
+
+
+/* -------------------------------form-in-line --------------------------------------- */
+
+.form-img-conteiner {
+
+    background-image: url(/image/);
+}
+/* -------------------------------form-in-line --------------------------------------- */
