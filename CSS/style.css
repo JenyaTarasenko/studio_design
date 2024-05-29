@@ -110,7 +110,7 @@ body {
 
 .wark-section {
 
-    /* margin-top: 50px; */
+    margin-top: 50px;
 }
 .image-card {
 
@@ -151,10 +151,7 @@ body {
 /* -------------------------------секция что мы делаем --------------------------------------- */
 
 /* -------------------------------секция сайт визитка--------------------------------------- */
-.vizitka-conteiner {
 
-    margin-top: 60px;
-}
 .vizitka-image {
 
     background-image: url(/image/Задний\ фон.png);
@@ -622,14 +619,17 @@ body {
     height: 840px;
     position: relative;/*  примеряется к родителя чтоб двигать banner-title-top */
     background-repeat: no-repeat;
+    background-size: cover; /* Изображение охватывает весь контейнер */
+    background-position: center;
 
 }
 
 .banner-title-top {
 
     position: absolute;
-    top: 460px;
-    right: 190px;
+    
+    top: 550px;
+    right: 150px;
     
 }
 .banner-title-top h1 {
@@ -745,9 +745,115 @@ body {
 
 
 /* -------------------------------form-in-line --------------------------------------- */
+.form-in-line-top {
 
-.form-img-conteiner {
-
-    background-image: url(/image/);
+    margin-top: 40px;
 }
+.form-img-conteiner {/*  картинка фон */
+
+    background-image: url(/image/Задник\ заявка.png);
+    width: 100%;
+    height: 375px;
+    background-size: cover;
+    background-position: center;
+}
+.form-conteiner-top {/*   контейнер формы  */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;/*   растянуть на весь блок */
+
+}
+.form-conteiner-top-text {/* Абсолютное позиционирование для контейнера  родителбf lex */
+
+    position: absolute; /* Абсолютное позиционирование */
+    margin-top: -200px;
+  
+
+}
+.form-conteiner-top-text h6 {
+
+    font-size: 40px;
+    color: #252422;
+    font-weight: 900;
+
+}
+
+.form-inline-top {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%; /*заставляет форму занимать всю доступную ширину родительского  */
+    gap: 5px; /* Отступы между элементами формы */
+
+}
+
 /* -------------------------------form-in-line --------------------------------------- */
+/* -------------------------------card-top-wark --------------------------------------- */
+.card-top-wark-section {
+
+    margin-top: 30px;
+}
+.conteiner-card-top-wark { /* контейнер */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+    height: 375px;
+    /*flex-wrap: wrap; перенос флекс элемента*/
+    box-sizing: border-box;
+    gap:5px;
+}
+.card-top-wark {  /* карта */
+
+    width: 345px; 
+    height:256px;
+    border: none;
+  
+    position: relative;
+    border-radius: 30px;
+    margin: 20px;
+
+}
+
+
+.card-title-top-wark { /* карта  описанте*/
+
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.card-title-top-wark h5 {/* карта  описанте*/
+
+    font-weight: 900;
+    font-size: 23px;
+    color: #FAFAFF;
+
+}
+
+.card-item-top-wark {
+
+    position: absolute;
+    bottom: 10px;
+    left: 20px; 
+    margin: 10px;
+    max-width: 220px;
+    max-height: 100px;
+  
+}
+
+.card-item-top-wark h6 {
+
+    font-weight: 300;
+    font-size: 18px;
+    color: #FAFAFF;
+    letter-spacing: 5%;
+}
+/* -------------------------------card-top-wark --------------------------------------- */
+     

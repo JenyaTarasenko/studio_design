@@ -1,0 +1,15 @@
+
+/* секция .image-banner фиксация текста */
+@media (max-width: 1240px) and (min-width: 768px) {  
+    .banner-title-top {
+        top: 550px;
+        right: 50px;
+    }
+}
+
+@media (max-width: 1150px) and (min-width: 1100px) {
+    .conteiner-card-top-wark {
+        gap: 3px; /* Устанавливаем расстояние между картами */
+        
+    }
+}

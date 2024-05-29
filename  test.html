@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper Slider Example</title>
+    <!-- Подключение стилей Swiper -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- Ваши собственные стили -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    
+
+
+    
+        <div class="swiper">
+
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide card-top-wark" style="background-image: url('/image/карточка%201.png');"> 
+                        <div class="card-title-top-wark"> 
+                                <h5>Cайт<br>візитка</h5>
+                            </div>
+                            <div class="card-item-top-wark">
+                                <h6>з допомогою цієї послуги ви зможете почати просування своєї компанії в інтернеті</h6>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide  card-top-wark" card-2 style="background-image: url(/image/Карточка\ 2.png);"> 
+                        <div class="card-title-top-wark"> 
+                          <h5>ЛЕНДІНГ</h5>
+                        </div>
+                        <div class="card-item-top-wark">
+                          <h6>Така форма сайту ідеально підходить для невеликих компаній, продуктів, подій та заходів</h6>
+                        </div>
+                    </div>
+    
+                    <div class="swiper-slide card-top-wark" card-3 style="background-image: url(/image/Картинка\ 3.png);" > 
+                        <div class="card-title-top-wark"> 
+                          <h5>Багатосторінковий<br>сайт</h5>
+                        </div>
+                        <div class="card-item-top-wark">
+                          <h6>На цьому сайті ві можете добавити перехід на внутрішні сторінки сайту</h6>
+                        </div>
+                    </div>
+                </div>
+                 
+            </div>
+
+            <!-- Кнопки навигации -->
+            <div class="swiper-scrollbar"></div>
+
+            <!-- Пагинация -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+
+
+ 
+
+
+    <!-- Подключение скриптов Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Инициализация Swiper -->
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+          
+            // If we need pagination
+            pagination: {
+              el: '.swiper-pagination',
+            },
+          
+            // Navigation arrows
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          
+            // And if we need scrollbar
+            scrollbar: {
+              el: '.swiper-scrollbar',
+            },
+        });
+    </script>
+</body>
+</html>
