@@ -856,4 +856,63 @@ body {
     letter-spacing: 5%;
 }
 /* -------------------------------card-top-wark --------------------------------------- */
-     
+
+
+
+/* -------------------------------мобильная версия  секция карта --------------------------------------- */
+.mobile-card-wark {
+    display: none;
+  }
+.mobile-card-wark {
+
+    margin-top: 20px;
+}
+.swiper {
+    width: 700px;
+    height: 300px;
+    position: relative;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+  
+    /* top: 50%;
+    transform: translateY(-50%); */
+  
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    z-index: 1000;
+  
+  }
+  /* .swiper-button-prev,
+  .swiper-button-next {
+    width: 0;
+    height: 0;
+    display: none;
+  } */
+  
+  .swiper-button-prev {
+    background-image: url(/image/стрела\ левая.png);
+   
+    
+  }
+  
+  .swiper-button-next {
+    background-image: url(/image/стрела\ правая.png);
+  }
+  
+  .swiper-scrollbar {
+    display: none;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    display: none !important;
+  }
+
+ /* -------------------------------мобильная версия  секция карта --------------------------------------- */

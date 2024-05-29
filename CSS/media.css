@@ -5,7 +5,14 @@
         top: 550px;
         right: 50px;
     }
+   
 }
+/* секция .imobile-card-wark  скрыта */
+@media (max-width: 1240px) {
+    .mobile-card-wark {
+      display: none;
+    }
+  }
 
 @media (max-width: 1150px) and (min-width: 1100px) {
     .conteiner-card-top-wark {
@@ -13,3 +20,12 @@
         
     }
 }
+@media (max-width: 1100px) {
+    .mobile-card-wark {
+      display: block; /* Включаем .mobile-card-wark */
+    }
+    
+    .card-top-wark-section {
+      display: none; /* Выключаем .card-top-wark-section */
+    }
+  }
