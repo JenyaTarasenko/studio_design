@@ -10,26 +10,91 @@
   </head>
   <body>
 
+
+    <section class="swiper-container card-top-wark-section">
+      <div class="swiper-wrapper conteiner-card-top-wark">
+        <div class="swiper-slide card-top-wark" style="background-image: url('/image/карточка 1.png');">
+          <div class="card-title-top-wark">
+            <h5>Сайт<br>візитка</h5>
+          </div>
+          <div class="card-item-top-wark">
+            <h6>З допомогою цієї послуги ви зможете почати просування своєї компанії в інтернеті.</h6>
+          </div>
+        </div>
+        <div class="swiper-slide card-top-wark" style="background-image: url('/image/Карточка 2.png');">
+          <div class="card-title-top-wark">
+            <h5>ЛЕНДІНГ</h5>
+          </div>
+          <div class="card-item-top-wark">
+            <h6>Така форма сайту ідеально підходить для невеликих компаній, продуктів, подій та заходів.</h6>
+          </div>
+        </div>
+        <div class="swiper-slide card-top-wark" style="background-image: url('/image/Картинка 3.png');">
+          <div class="card-title-top-wark">
+            <h5>Багатосторінковий<br>сайт</h5>
+          </div>
+          <div class="card-item-top-wark">
+            <h6>На цьому сайті ви можете додати перехід на внутрішні сторінки сайту</h6>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-scrollbar"></div>
+    </section>
+    
+    <!-- Подключение Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <!-- Подключение Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    
+    <!-- Инициализация Swiper -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
+          },
+        });
+      });
+    </script>
+    
+         
+    
+
    
-<div class="swiper-container swiper">
-  <!-- Additional required wrapper -->
+<!-- <div class="swiper-container swiper">
+
   <div class="swiper-wrapper">
-    <!-- Slides -->
+
     <div class="swiper-slide"><img src="/image/плашка для слайдера.png"></div>
     <div class="swiper-slide"><img src="/image/плашка для слайдера.png"></div>
     <div class="swiper-slide"><img src="/image/плашка для слайдера.png"></div>
     ...
   </div>
-  <!-- If we need pagination -->
+ 
   <div class="swiper-pagination"></div>
 
-  <!-- If we need navigation buttons -->
+
   <div class="swiper-button-prev"></div>
   <div class="swiper-button-next"></div>
 
-  <!-- If we need scrollbar -->
+
   <div class="swiper-scrollbar"></div>
-</div>
+</div> -->
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script>

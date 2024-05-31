@@ -916,3 +916,78 @@ body {
   }
 
  /* -------------------------------мобильная версия  секция карта --------------------------------------- */
+
+
+ /* -------------------------------card-context-section--------------------------------------- */
+
+.card-context-section {/* секция */
+
+    margin-top: 50px; 
+    
+}
+.card-context-conteiner {/* контейнер */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap:20px;
+    width: 100%;
+    height: 800px;
+    flex-wrap: wrap; 
+
+}
+
+ .card-context {/* карта */
+
+
+    width: 345px;
+    height:650px;
+    background-color: #020607F2;
+    border: none; border-radius: 30px;
+}
+
+.card-context-title {/* контейнер описание */
+
+    width: 244px;
+    height:60px;
+    position: relative;
+    margin: 20px;
+
+}
+.card-context-title h5 {
+
+
+    font-size: 23px;
+    font-weight: 900;
+
+}
+
+.card-context-title_items {/* контейнер описание 2*/
+     
+    width: 244px;
+    height:100px;
+    margin: 20px;
+    margin-top: 40px;
+    
+
+}
+.card-context-title_items h6 {
+
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 5%;
+    color: #FAFAFF;
+}
+.card-context-title_items_button {
+    position: relative; /* Абсолютное позиционирование внутри карты */
+    top: 30px; /* Расстояние от верхнего края карты */
+    left: 30px; /* Расстояние от правого края карты */
+}
+.card-context-card {
+
+    margin-top: 30px;
+}
+
+
+/* -------------------------------card-context-section--------------------------------------- */

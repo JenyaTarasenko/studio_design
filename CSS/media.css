@@ -28,4 +28,24 @@
     .card-top-wark-section {
       display: none; /* Выключаем .card-top-wark-section */
     }
+    .column-space-star-left { /*колонка ракета смещена левая  */
+      margin-left: 70px;
+
+    }
+    .column-space-star-right {/*колонка ракета смещена лправая */
+
+      margin-right: 70px
+
+    }
+}
+
+@media (max-width: 1075px) {/* увеличиваем пространство для карточек */
+
+
+  .card-context-section {
+
+    height: 1320px;
   }
+
+
+}
