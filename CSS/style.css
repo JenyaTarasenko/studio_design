@@ -786,6 +786,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     flex-direction: row;
     width: 100%; /*заставляет форму занимать всю доступную ширину родительского  */
     gap: 5px; /* Отступы между элементами формы */
@@ -794,6 +795,7 @@ body {
 
 /* -------------------------------form-in-line --------------------------------------- */
 /* -------------------------------card-top-wark --------------------------------------- */
+
 .card-top-wark-section {
 
     margin-top: 30px;
@@ -988,6 +990,132 @@ body {
 
     margin-top: 30px;
 }
+.card-context-img img {
+    width: 100%; /* добавлено для растягивания изображения на всю ширину */
+    height: auto; /* добавлено для сохранения пропорций изображения */
+}
 
 
 /* -------------------------------card-context-section--------------------------------------- */
+
+/* -------------------------------card_mini_section--------------------------------------- */
+.card_mini_section {/* секция */
+
+    margin-top: 30px;
+}
+.card_mini_conteiner {/* контейнер */
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap:10px;
+    width: 100%;
+  
+    flex-wrap: wrap; 
+}
+.card_mini_image {
+
+    width: 345px;
+    height:256px;
+    background-image: url(/image/Плашка\ 333.png);
+    border: none;
+    border-radius: 30px;
+
+
+}
+
+.card_mini_text_conteiner {/*  rконтейнер для заголовка*/
+
+    width: 200px;
+    height: 80px;
+    position: relative;
+    margin: 65px;
+    display: flex;
+    align-items: center; /* Вертикальное центрирование */
+    justify-content: center;
+}
+
+.card_mini_text_conteiner_text {/*  контейнер для описания */
+
+    width: 245px;
+    height: 50px;
+    position: relative;
+    margin: 65px;
+    display: flex;
+    align-items: center; /* Вертикальное центрирование */
+    justify-content: center;
+}
+
+
+.mini__text {/*  контейнер для  текста */
+
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    
+   
+}
+
+.card_mini_text_conteiner_text h6 {/*   текста */
+
+    margin-right: 30px;
+}
+
+
+.mini-description {/*  контейнер для  текста */
+
+      
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 5%;
+    color: #FAFAFF;
+    text-align: center;
+
+
+}
+/* -------------------------------card_mini_section--------------------------------------- */
+
+
+
+
+/* ------------------------------planshet-banner---------------------------------------- */
+
+
+/* ------------------------------planshet-banner---------------------------------------- */
+.planshet-banner {
+    display: none;
+}
+.image_planshet-banner {
+
+    background-image: url(/image/planshet_mars.png);
+    width: 768px;
+    height: 1024px;
+    position: relative;/*  примеряется к родителя чтоб двигать banner-title-top */
+    background-repeat: no-repeat;
+    background-size: cover; /* Изображение охватывает весь контейнер */
+    background-position: center;
+}
+.planshet-banner-text_conteiner{
+     position: absolute;
+    font-size: 25px;
+    top: 550px;
+    right: 200px;
+    margin-top: 200px; 
+   
+ 
+    
+}
+.planshet-banner-text_conteiner h1 {
+
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 5%;
+    color: #CCC5B9;
+    font-weight: 400;
+    text-align: center;
+
+}

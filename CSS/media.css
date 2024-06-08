@@ -24,6 +24,15 @@
     .mobile-card-wark {
       display: block; /* Включаем .mobile-card-wark */
     }
+    .form-button-one {/* форма-кнопка */
+
+      margin-top: 20px;
+    }
+    .form-inline-top {
+
+      margin-top: 20px;
+      
+    }
     
     .card-top-wark-section {
       display: none; /* Выключаем .card-top-wark-section */
@@ -48,4 +57,21 @@
   }
 
 
+}
+
+@media (max-width: 768px){/* замена главного экрана на 768 px */
+
+  .banner{
+
+    display: none;
+    
+  }
+
+
+  .planshet-banner  {
+
+    display: block;
+
+  }
+ 
 }
