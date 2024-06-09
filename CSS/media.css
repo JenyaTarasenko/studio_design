@@ -59,19 +59,33 @@
 
 }
 
-@media (max-width: 768px){/* замена главного экрана на 768 px */
+@media (max-width: 768px) {/* замена главного экрана на 768 px */
 
-  .banner{
+  .banner{/* замена главного экрана на 768 px */
 
     display: none;
-    
+
   }
 
-
-  .planshet-banner  {
+  .planshet-banner  {/* замена главного экрана на 768 px */
 
     display: block;
 
+  }
+
+  .planshet_vizitca {/* баннер  включаем */
+
+    display: block;
+  }
+
+  .planshet-vizitca__image {/* баннер  включаем  */
+
+    display: block;
+  }
+
+  .vizitka-conteiner {
+
+    display: none;
   }
  
 }
