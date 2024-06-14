@@ -14,12 +14,15 @@ a {
     color: #CCC5B9; 
 }
 
-body {
+html,body {
 
     font-family: Inter, sans-serif;
     font-size: 16px; 
     color: #CCC5B9; 
     min-width: 320px; 
+    overflow-x: hidden
+    
+    
 
  }
 /* общие стили */
@@ -621,6 +624,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover; /* Изображение охватывает весь контейнер */
     background-position: center;
+    background-size: cover;
+    width: 100%; /* Занимает всю ширину родительского контейнера */
+    max-width: 100vw;
 
 }
 
@@ -805,11 +811,11 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-   
+    flex-wrap: wrap;
     height: 375px;
     /*flex-wrap: wrap; перенос флекс элемента*/
     box-sizing: border-box;
-    gap:5px;
+    gap:2px;
 }
 .card-top-wark {  /* карта */
 
@@ -845,8 +851,9 @@ body {
     bottom: 10px;
     left: 20px; 
     margin: 10px;
-    max-width: 220px;
-    max-height: 100px;
+    width: 240px;
+    height: 100px;
+    margin-bottom: 50px;
   
 }
 
@@ -924,6 +931,9 @@ body {
 
 .card-context-section {/* секция */
 
+    flex-wrap: wrap; 
+    display: flex;
+    justify-content: center;
     margin-top: 50px; 
     
 }
@@ -1092,8 +1102,11 @@ body {
 .image_planshet-banner {
 
     background-image: url(/image/planshet_mars.png);
-    width: 768px;
+    /* width: 768px;
+    height: 1024px; */
+    width: 100%;
     height: 1024px;
+   
     position: relative;/*  примеряется к родителя чтоб двигать banner-title-top */
     background-repeat: no-repeat;
     background-size: cover; /* Изображение охватывает весь контейнер */
@@ -1217,7 +1230,7 @@ body {
 /* ------------------------------raceta-center_planshet---------------------------------------- */
 /* -----------------------------raceta-center_planshet-image-two---------------------------------------- */
 
-.raceta-center_planshet-image-two {/*  секция */
+.raceta-center_planshet-two {/*  секция */
 
     display: none;
 
@@ -1325,3 +1338,207 @@ body {
 
 
   /* -----------------------------raceta-center_planshet-three---------------------------------------- */  
+.section_footer-mobile {/*   секция */
+
+    display: none;
+
+
+}
+
+.section_footer_mobile-image {/*   картинка */
+
+    background-image: url(/image/footer_planshet.png);
+    /* width: 768px;
+    height: 1024px; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+}
+.section_footer_mobile-conteiner {/*   весь контейнер */
+
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 500px;
+}
+
+.text-conteiner-mobile { /*   контейнер текст */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.text-conteiner-mobile h6 {
+
+    font-size: 18px;
+    color: #AEB2AA66;
+}
+
+ .footer-icon-mobile {  /*   контейнер иконка */
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+ }
+
+
+
+
+
+/* -------------------------------section_footer-mobile --------------------------------------- */
+/* -------------------------------banner-mobile-section--------------------------------------- */
+.banner-mobile-section { /*  секция */
+    display: none;
+
+    
+}
+.banner-mobile-image { /*  картинка */
+
+    background-image: url(/image/Mars_mobile_image.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 568px;
+    position: relative;
+  
+
+}
+.banner-mobile-conteiner { /*  контейнер  */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    margin-top: 300px;
+   
+
+}
+.banner-mobile-conteiner h1 { /* текст  */
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 5%;
+    color:#CCC5B9;
+    text-transform: uppercase;
+}
+
+/* -------------------------------banner-mobile-section--------------------------------------- */
+
+/* -------------------------------card-section-text--------------------------------------- */
+.card-section-text {
+
+    margin-top: 20px;
+    display: none;
+}
+.card-section-text_title {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text_poslugi {
+
+    font-size: 38px;
+    font-weight: 900;
+}
+/* -------------------------------telegram-mobile--------------------------------------- */
+.telegram-mobile {
+    display: none;
+
+
+}
+.telegram-mobile-image {
+
+    background-image: url(/image/Telegram_bot_mobile.png);
+    width: 100%;
+    height: 562px;
+    display: block;
+    background-repeat: no-repeat;
+}
+/* -------------------------------telegram-mobile--------------------------------------- */
+/* -------------------------------telegram-mobile--------------------------------------- */
+.footer-mobile-two {
+
+    display: none;
+}
+.footer-mobile-two-image {
+
+    background-image: url(/image/footer-image-mobile.png);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 958px;
+    width: 480px;
+}
+
+.footer-conteiner {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 333px;
+    
+
+
+}
+.footer-icon-mobile_two {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.image-conteiner-items-two {
+
+    width: 448px;
+    height: 60px;
+}
+.footer-icon-mobile_two img {
+
+    width: 40px;
+    height: 40px;
+}
+/* -------------------------------aceta-mobile-sait--------------------------------------- */
+.section-raceta-mobile-sait {
+
+    display: none;
+
+    
+}
+.raceta-mobile-sait-image-one {
+
+    background-image: url(/image/raceta-mobile-one.-section.png);
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 568px;
+
+}
+.raceta-mobile-sait-image-two {
+
+    background-image: url(/image/raceta-mobile-section-two.png);
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 1062px;
+
+}
