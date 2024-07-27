@@ -1,56 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    .raceta-center_planshet-one {/* секция */
+
+   
+    }
+    .raceta-center_planshet-image-one {/*  картинка */
+
+      background-image: url(/image/raceta_one.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 768px;
+      height: 600px;
+    }
+    .conteiner-raceta-center_planshet {/*  контейнер */
+
+      height: 400px;
+      width: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .conteiner-raceta-center_planshet h4 {/*  текст */
+
+      font-size: 35px;
+      font-weight: 900;
+      letter-spacing: 5%;
+      color:#020607;
+      text-align: center;
+    } 
+    .conteiner-raceta-center_planshet p {/*  текст */
+
+      font-size: 25px;
+      font-weight: 300;
+      letter-spacing: 5%;
+      color: #FAFAFF;
+      text-align: center;
+      line-height: 30px;
+      margin: 20px;
+      
+
+
+    }
+    .buttom-top-planshet {/*  кнопка  */
+
+      margin: 20px;
+    }
+    /* ------------------------------raceta-center_planshet---------------------------------------- */
+    /* -----------------------------raceta-center_planshet-image-two---------------------------------------- */
+
+    .raceta-center_planshet-two {/*  секция */
+
+      display: none;
+
+    }
+    .raceta-center_planshet-image-two {/*  картинка */
+
+      background-image: url(/image/racketa-planshet-two.png);
+      width: 768px;
+      height: 1104px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .raceta-center_planshet-conteiner {/*  контейнер для  двух колонок */
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 80px;
+      margin-top: 130px;
+    }
+    .umovi-oplaty {/* сама колонка */
+      
+      width: 200px;
+      height: 90px;
+      margin-top: 550px;
+      text-align: center;
+    }
+    .umovi-oplaty_text, .umovi-oplaty_text_two { /* текст */
+
+      font-size: 40px;
+      font-weight: 900;
+      text-align: center;
+      text-transform: uppercase;
+
+    }
+    .umovi-silka, .umovi-silka_two {/* ссылка */
+
+      text-decoration: underline;
+      
+    }
+    .umovi-silka p, .umovi-silka_two {/* текст  парагаф*/
+
+      font-size: 15px;
+      font-weight: 300;
+      letter-spacing: 5%;
+      line-height: 40px;
+      text-align: center;
+
+
+    }
+
+    /* -----------------------------raceta-center_planshet-image-two---------------------------------------- */  
+    /* -----------------------------raceta-center_planshet-three---------------------------------------- */  
+    .raceta-center_planshet-three {/*  секция  */
+
+      display: none;
+
+    }
+
+    .raceta-center_planshet-top-image {/*  картинка  */
+
+      background-image: url(/image/receta_planshet_top.png);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 768px;
+      height: 600px;
+
+    }
+    .raceta-center_planshet-top-conteiner {/*  контейнер  */
+
+      width: 500px;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    }
+    .raceta-center_planshet-top-conteiner h5 {/*  текст  */
+
+      font-size: 33px;
+      font-weight: 900;
+      line-height: 40px;
+      letter-spacing: 5%;
+      color :#020607;
+      text-align: center;
+
+    }
+
+    .raceta-center_planshet-top-conteiner p {/*  текст  */
+
+      font-size: 25px;
+      font-size: 300;
+      line-height: 30px;
+      letter-spacing: 5%;
+      color:#FAFAFF;
+      text-align: center;
+      margin: 20px;
+
+    }
+
+
+  </style>
 </head>
 <body>
+  <section class="raceta-center_planshet-one">
+    <!--   секция картинка верхняя -->
+    <div class="raceta-center_planshet-image-one">
+      <div class="conteiner-raceta-center_planshet">
+        <h4>ТЕЛАГРМ БОТ<br> ДЛЯ ВАШОГО БІЗНЕСА</h4>
+        <p>В нас ви можете замовити разробку Телеграм боту, який домопоже вам у роботі та автоматизує різні процеси!</p>
+        <a href="#"><div class="buttom-top-planshet mars-button"><img src="/image/Кнопка далі блєк.png"></div></a>
+      </div>
+    </div><!--   секция картинка верхняя -->
+  </section><!--   секция картинка средняя -->
 
-   <!--   секция banner-mobile -->
-   <section class="banner-mobile-section">
-    <div class="banner-mobile-image">
-      <!-- <nav class="navbar navbar-expand-lg navbar-light" style="position: absolute; top: 0; left: 0; right: 0; z-index: 300;">
-        <div class="container-fluid">
-          
-          <a class="navbar-brand" href="#"><img src="/image/лого.png" alt="Mars logo" style="width: 103px; height: 60px;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Головна</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Портфоліо</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Послуги</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Проекти</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Умови</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Контакти</a>
-              </li>
-            </ul>
-          </div>
+  <section class="raceta-center_planshet-two">
+    <div class="raceta-center_planshet-image-two">
+      <div class="raceta-center_planshet-conteiner">
+        <div class="umovi-oplaty">
+          <h5 class="vizi-text umovi-oplaty_text">умови<br>оплати</h5>
+          <a href="#" class="umovi-silka"><p>скачати файл</p></a>
         </div>
-      </nav> -->
-
-      <div class="banner-mobile-conteiner">
-        <h1>&nbsp;&nbsp;&nbsp;створення &<br>обслуговування сайтів</h1>
-        <div class="mars-button-mobile mars-button"><img src="/image/кнопка.png"><span>ЗАМОВИТИ</span></div>
-
+        <div class="umovi-oplaty_two">
+          <h5 class="vizi-text umovi-oplaty_text_two">єтапи<br>роботи</h5>
+          <a href="#" class="umovi-silka_two"><p>скачати файл</p></a>
+        </div>
       </div>
     </div>
-  </section><!--   секция banner-mobile -->
-    
+  </section><!--   секция картинка средняя -->
+
+
+ <section class="raceta-center_planshet-three">
+  <div class="raceta-center_planshet-top-image">
+    <div class="raceta-center_planshet-top-conteiner">
+      <h5>Покращити сайт вашої<br>компаниї</h5>
+      <p>Ми допоможемо віправити помилки, пидключіти сервиси,базу даних, прийом заявок, оплата, новини, бронювання та інше</p>
+      <a href="#"><div class="buttom-top-planshet mars-button"><img src="/image/Кнопка далі блєк.png"></div></a>
+    </div>
+
+
+  </div>
+ </section><!--   секция картинка нижняя -->
+  
 </body>
 </html>

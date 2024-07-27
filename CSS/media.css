@@ -37,7 +37,7 @@
     }
     .form-button-one {/* форма-кнопка */
 
-      margin-top: 20px;
+      /* margin-top: 20px; */
     }
     .form-inline-top {
 
@@ -62,11 +62,18 @@
 @media (max-width: 1075px) {/* увеличиваем пространство для карточек */
 
 
-  .card-context-section {
+  /* .card-context-section {
 
     height: 1420px;
-  }
+  } */
 
+
+}
+@media (max-width: 992px) {/* logo-mars */
+  .navbar-brand {
+
+    display: none;
+  }
 
 }
 
@@ -253,6 +260,7 @@
   .section-raceta-mobile-sait {
 
     display: block;
+    margin-top: 50px;
   }
 
 
