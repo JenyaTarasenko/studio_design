@@ -7,6 +7,20 @@
     }
    
 }
+@media (max-width: 1050px){
+
+  .top-section_conteiner_items {
+
+    margin-left: 750px;
+  
+  }
+
+  .top_section-description p {
+
+    font-size: 17px;
+  }
+}
+
 /* секция .imobile-card-wark  скрыта */
 @media (max-width: 1240px) {
     .mobile-card-wark {
@@ -66,6 +80,16 @@
 
     height: 1420px;
   } */
+
+
+}
+
+@media (max-width: 1000px){
+
+  .top_section-description p {
+
+    font-size: 15px;
+  }
 
 
 }

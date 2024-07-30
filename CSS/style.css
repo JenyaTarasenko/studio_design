@@ -176,7 +176,7 @@ html,body {
 
 .vizitka-image {
 
-    background-image: url(/image/Задний\ фон.png);
+    background-image: url(/image/vartist_block_2.png);
     background-position: center;
     background-size: cover;
     height: 700px;
@@ -294,7 +294,7 @@ html,body {
 /* -------------------------------секция bord-top--------------------------------------- */
 .bord-top-image {
 
-    background-image: url(/image/Задній\ фон\ Бот.png);
+    background-image: url(/image/telegram_bot_2.png);
     background-position: center;
     background-size: cover;
     height: 700px;
@@ -315,9 +315,9 @@ html,body {
 .board_text_bady {
 
     width: 510px;
-    font-size: 40px;
-    color: #020607;
-    font-weight: 900;
+    font-size: 62px;
+    color: #FFFFFF;
+    font-weight: 800;
     margin: 0 auto;
 
 
@@ -331,9 +331,10 @@ html,body {
     margin-top: 30px;
 
 } 
-.bordy-text {
+.board-text{
 
     font-weight: 900;
+    font-size: 62px;
 }
 
 .board_text {
@@ -671,7 +672,7 @@ html,body {
 /* -------------------------------top -section --------------------------------------- */
 .top-section-image {
 
-    background-image: url(/image/Задник\ космос\ 2.png);
+    background-image: url(/image/niz_insta_code.png);
     background-position: center;
     background-size: cover;
     height: 700px;
@@ -681,31 +682,27 @@ html,body {
     align-items: center; 
 
 }
+.top-section_conteiner_items {
 
-.top-section-description, .top-section-items {
-
-    text-align: center;
-    margin-top: 40px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100px;
+    flex-direction: column;
+    margin-left: 900px;
+    margin-top: 400px;
 }
-.top-section-description h6 {
+.top_section-description p {
 
-    font-size: 40px;
-    font-weight: 900;
-    color:#020607;
-}
-.top-section-items {
-
-    font-size: 25px;
+    color:#FAFAFF;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 5%;
     font-weight: 300;
-    color: #FAFAFF;
 }
 
-.mars-button-top-section {
-
-    text-align: center;
-    margin-top: 40px;
-
-}
 /* -------------------------------top -section --------------------------------------- */
 
 .space-star-image {/*  фон */
@@ -1769,7 +1766,7 @@ html,body {
 }
 /* -------------------------------image-about_section-------------------------------------- */
 /* -------------------------------stvorenna_sait-------------------------------------- */
-/* -------------------------------stvorenna_sait-------------------------------------- */
+
 .stvorenna_sait-conteiner {
 
     display: flex;
@@ -1782,6 +1779,193 @@ html,body {
 
     background-image: url(/image/);
 }
+/* -------------------------------stvorenna_sait-------------------------------------- */
+/* -------------------------------meta_studio-------------------------------------- */
+.meta_studio-conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.meta_studio-description {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.meta_studio-description h2 {
+
+    font-size: 60px;
+    color:#020607;
+    font-weight: 900;
+    letter-spacing: 5%;
+
+
+}
+.meta_studio-items-one {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* height: 100vh; */
+    text-align: center;
+
+}
+
+.meta_studio-items-one p {
+
+    font-size: 35px;
+    color:#020607;
+    font-weight: 300;
+    letter-spacing: 5%;
+    line-height: 40px;
+}
+
+.meta_studio-items-two {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    /* height: 100vh; */
+    text-align: center;
+
+
+}
+.meta_studio-items-two p {
+
+
+    font-size: 35px;
+    color:#020607;
+    font-weight: 300;
+    letter-spacing: 5%;
+    line-height: 40px;
+}
+/* -------------------------------meta_studio-------------------------------------- */
+
+/* -------------------------------princip_studio-------------------------------------- */
+.princip_studio-conteiner {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+
+}
+.princip_studio-discription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.princip_studio-discription h3 {
+
+    font-size: 60px;
+    color:#020607;
+    font-weight: 900;
+    letter-spacing: 5%;
+
+}
+
+.princip_studio-items {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:5px;
+
+}
+.pricip_card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    gap: 1px;
+}
+.pricip-card_image {
+
+    width: 100px;
+    height: 100px;
+}
+
+.princip-card-items h5 {
+
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #000000;
+}
+/* -------------------------------princip_studio-------------------------------------- */
+.about-page_section {
+
+    margin-top: 40px;
+}
+
+.about-page_conteiner-image {
+
+    background-image: url(/image/about_title.png);
+    width: 1280px;
+    height: 1034px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-page_conteiner-title {
+
+    display: flex;
+    justify-content: center;
+    width: 520px;
+    height: 520px;
+    flex-direction: column;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+
+
+.about-page_conteiner-title h1 {
+
+    font-size: 60px;
+    color:#020607;
+    font-weight: 900;
+    letter-spacing: 5%;
+
+}
+
+
+.about-page_conteiner-title p {
+
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 5%;
+    color: #252422;
+
+}
+
+
+/* -------------------------------about-page_section-------------------------------------- */
+
+/* -------------------------------about-page_section-------------------------------------- */
 
 
 /* -------------------------------pages abaut-------------------------------------- */
