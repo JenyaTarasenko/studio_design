@@ -189,6 +189,14 @@ html,body {
 
 }
 
+.vizitca-text-items {
+
+    font-size: 30px;
+    color:#252422;
+
+
+}
+
 .vizitka-text span {
 
     font-size: 40px;
@@ -248,6 +256,29 @@ html,body {
 }
 
 /* -------------------------------секция сайт визитка--------------------------------------- */
+
+/* -------------------------------text-section--------------------------------------- */
+
+.text-section {
+
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+.text-section_description {
+
+    width: 350px;
+    height: 50px;
+}
+
+.text-section_description h5{
+
+    color:#020607E5;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 23px;
+}
+/* -------------------------------text-section--------------------------------------- */
 
 /* -------------------------------секция card_conteiner--------------------------------------- */
 .card_conteiner {
@@ -821,7 +852,7 @@ html,body {
 
 .card-top-wark-section {
 
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .conteiner-card-top-wark { /* контейнер */
 
@@ -884,64 +915,29 @@ html,body {
 /* -------------------------------card-top-wark --------------------------------------- */
 
 
+/* -------------------------------text-section-two--------------------------------------- */
 
-/* -------------------------------мобильная версия  секция карта --------------------------------------- */
-.mobile-card-wark {
-    display: none;
-  }
-.mobile-card-wark {
+.text-section_description-two {
 
-    margin-top: 20px;
+    width: 350px;
+    height: 50px;
+    margin-left: 650px;
+    margin-top: 30px;
+
+
 }
-.swiper {
-    width: 700px;
-    height: 300px;
-    position: relative;
-  }
-  
-  .swiper-button-prev,
-  .swiper-button-next {
-  
-    /* top: 50%;
-    transform: translateY(-50%); */
-  
-    width: 75px;
-    height: 75px;
-    position: absolute;
-    text-align: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    
-    z-index: 1000;
-  
-  }
-  /* .swiper-button-prev,
-  .swiper-button-next {
-    width: 0;
-    height: 0;
-    display: none;
-  } */
-  
-  .swiper-button-prev {
-    background-image: url(/image/стрела\ левая.png);
-   
-    
-  }
-  
-  .swiper-button-next {
-    background-image: url(/image/стрела\ правая.png);
-  }
-  
-  .swiper-scrollbar {
-    display: none;
-  }
-  .swiper-button-prev::after,
-  .swiper-button-next::after {
-    display: none !important;
-  }
+.text-section_description-two h5 {
 
- /* -------------------------------мобильная версия  секция карта --------------------------------------- */
+    color:#020607E5;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 23px;
+
+
+}
+
+/* -------------------------------text-section-two--------------------------------------- */
+
 
 
  /* -------------------------------card-context-section--------------------------------------- */
@@ -962,7 +958,7 @@ html,body {
     box-sizing: border-box;
     gap:20px;
     width: 100%;
-    /* height: 800px; */
+    height: 800px;
     flex-wrap: wrap; 
 
 }
