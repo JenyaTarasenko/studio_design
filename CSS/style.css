@@ -180,7 +180,7 @@ html,body {
     background-position: center;
     background-size: cover;
     height: 700px;
-    width: 100%;
+    width: 1282px;
 }
 
 .vizitka-text {
@@ -325,7 +325,7 @@ html,body {
 /* -------------------------------секция bord-top--------------------------------------- */
 .bord-top-image {
 
-    background-image: url(/image/telegram_bot_2.png);
+    background-image: url(/image/perezapustim_vash_sait.png);
     background-position: center;
     background-size: cover;
     height: 700px;
@@ -430,28 +430,7 @@ html,body {
 /* -------------------------------секция bord-top--------------------------------------- */
 
 /* -------------------------------секция why-us--------------------------------------- */
-.why-us {
 
-    margin-top: 20px;
-    margin-right: 120px;
-    
-    
-} 
-
-.why-us-text h6 {
-
-   font-size: 35px;
-   color: #020607;
-   font-weight: 900;
-}
-
-.why-us-text span {
-
-    font-size: 23px;
-    font-weight: 300;
-    
-   
-}
 
 /* -------------------------------секция why-us-card--------------------------------------- */
 .why-us-card {
@@ -732,6 +711,13 @@ html,body {
     line-height: 30px;
     letter-spacing: 5%;
     font-weight: 300;
+}
+.top_section_icons img {
+
+    width: 40px;
+    height: 40px;
+
+
 }
 
 /* -------------------------------top -section --------------------------------------- */
@@ -1612,8 +1598,8 @@ html,body {
 }
 .footer_new_conteiner_left {
 
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1672,15 +1658,15 @@ html,body {
 }
 .footer_new_conteiner_right {
 
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 120px;
     
     text-align: left;
     background-position: center;
     flex-direction: row;
-    margin-left: 350px;
+    margin-left: 150px;
 }
 
 .footer_new_item-one {
@@ -1739,10 +1725,43 @@ html,body {
 
 
 }
-.footer_new_intem_two a {
+
+.footer_new_item_two {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.footer_new_item_two a {
 
     color:#FAFAFF;
 }
+.footer_new_item_two_conteiner {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+
+}
+.footer-icon-mobile-mars {
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 100px;
+
+
+}
+
+.footer-icon-mobile-mars img {
+
+    width: 40px;
+    height: 40px;
+}
+
+
+
 /* -------------------------------footer_new-------------------------------------- */
 /* -------------------------------image-about_section-------------------------------------- */
 .image-about_conteiner {
@@ -1776,6 +1795,17 @@ html,body {
     background-image: url(/image/);
 }
 /* -------------------------------stvorenna_sait-------------------------------------- */
+/* -------------------------------text-section_item-------------------------------------- */
+.text-section_items {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 60px;
+
+}
+/* -------------------------------text-section_item-------------------------------------- */
 /* -------------------------------meta_studio-------------------------------------- */
 .meta_studio-conteiner {
 

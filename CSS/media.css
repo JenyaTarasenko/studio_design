@@ -156,6 +156,10 @@
 
     height: 880px;
   }
+ .footer_new  {
+
+  display: none;
+ } 
 }
 
 @media (max-width: 768px) {/* замена главного экрана на 768 px */
