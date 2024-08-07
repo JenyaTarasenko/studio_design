@@ -1177,11 +1177,11 @@ html,body {
 /* ------------------------------vizitka-planshet_desckription---------------------------------------- */
 /* ------------------------------raceta-center_planshet---------------------------------------- */
 
-.raceta-center_planshet-one {/* секция */
+/* .raceta-center_planshet-one {
 
     display: none;
 }
-.raceta-center_planshet-image-one {/*  картинка */
+.raceta-center_planshet-image-one {
 
     background-image: url(/image/raceta_one.png);
     display: flex;
@@ -1193,7 +1193,7 @@ html,body {
     height: 600px;
     margin-top: 40px;
 }
-.conteiner-raceta-center_planshet {/*  контейнер */
+.conteiner-raceta-center_planshet {
 
     height: 400px;
     width: 500px;
@@ -1202,7 +1202,7 @@ html,body {
     align-items: center;
     flex-direction: column;
 }
-.conteiner-raceta-center_planshet h4 {/*  текст */
+.conteiner-raceta-center_planshet h4 {
 
     font-size: 35px;
     font-weight: 900;
@@ -1210,7 +1210,7 @@ html,body {
     color:#020607;
     text-align: center;
 } 
-.conteiner-raceta-center_planshet p {/*  текст */
+.conteiner-raceta-center_planshet p {
 
     font-size: 25px;
     font-weight: 300;
@@ -1223,10 +1223,10 @@ html,body {
 
 
 }
-.buttom-top-planshet {/*  кнопка  */
+.buttom-top-planshet {
 
     margin: 20px;
-}
+} */
 /* ------------------------------raceta-center_planshet---------------------------------------- */
 /* -----------------------------raceta-center_planshet-image-two---------------------------------------- */
 
@@ -1996,3 +1996,180 @@ html,body {
 
 /* -------------------------------pages abaut-------------------------------------- */
 
+/* -------------------------------raceta-planshet_section-------------------------------------- */
+.raceta-planshet_section {
+
+
+}
+
+
+.image-raceta_planshet-one  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 416px; 
+    background-image: url(/image/image-raceta_planshet-one.png);
+    background-size: cover; /* Масштабирование изображения, чтобы оно полностью покрывало контейнер */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Избежание повторения изображения */
+    
+}
+
+.items-text-etapy_one {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}   
+
+.board-text {
+
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800;
+    background: linear-gradient(90deg,  #FE0000 0%, #FED700 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+
+}
+.conteiner-text-image_planshet {
+
+    display: flex;
+    width: 500px;
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.mars-btn_board {
+
+    margin-bottom: 60px;
+
+
+}
+
+.text-planshet-items {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.conteiner_btn {
+
+    margin-top: 30px;
+}
+
+.text-planshet-items h3{
+
+    font-size: 47px;
+    font-weight: 800;
+    line-height: 47px;
+    color:#FFFFFF;
+    
+
+}
+
+.items-text-etapy_one {
+
+  
+}
+
+
+
+.image-raceta_planshet-two {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1053px; 
+    background-image: url(/image/image-raceta_planshet-two.png);
+    background-size: cover; /* Масштабирование изображения, чтобы оно полностью покрывало контейнер */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Избежание повторения изображения */
+
+
+}
+.items-text-etapy_one, .items-text-etapy_two {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 210px;
+    height: 100px;
+    
+
+
+}
+.items-text-etapy_two {
+
+    margin-top: 30px;
+}
+.conteiner-etapy-image_planshet {
+
+    margin-top: 700px;
+}
+
+
+
+/* -------------------------------raceta-planshet_section-------------------------------------- */
+
+/* -------------------------------image-instagramm-------------------------------------- */
+.image-instagramm {
+
+
+}
+.image-instagramm_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1024px; 
+    background-image: url(/image/instagramm-planshet.png);
+    background-size: cover; /* Масштабирование изображения, чтобы оно полностью покрывало контейнер */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat; /* Избежание повторения изображения */
+
+
+}
+.conteiner_insta {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100px; 
+    margin-top: 740px;
+    flex-direction: column;
+
+}
+.insta-icons {
+
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+
+}
+.insta-icons img {
+
+    width: 34px;
+    height: 34px;
+}
+/* -------------------------------image-instagramm-------------------------------------- */

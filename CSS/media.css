@@ -15,11 +15,18 @@
     margin-left: 750px;
   
   }
+  .text-right_items {
+
+    margin-right: 100px;
+
+
+  }
 
   .top_section-description p {
 
     font-size: 17px;
   }
+  
 }
 
 /* секция .imobile-card-wark  скрыта */
@@ -159,7 +166,14 @@
  .footer_new  {
 
   display: none;
- } 
+  } 
+
+ .text-section_description {
+
+  margin-left: 140px;
+
+ }
+
 }
 
 @media (max-width: 768px) {/* замена главного экрана на 768 px */
@@ -173,11 +187,11 @@
 
     display: none;
   }
-  .bord-top {
+  /* .bord-top {
 
     display: none;
     
-  }
+  } */
 
   .banner{/* замена главного экрана на 768 px */
 
@@ -206,10 +220,10 @@
     display: none;
   }
  
-  .raceta-center_planshet-one {/*  секция 1  */
+  /* .raceta-center_planshet-one {
 
     display: block;
-  }
+  } */
   .raceta-center_planshet-two {/*  секция2  */
 
     display: block;
